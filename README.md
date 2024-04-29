@@ -39,6 +39,10 @@ The default is : admin/admin .
 
 Now you can alter the passwords to your needs.
 
+Go to "Advanced" and select "accesspoint" if you want to use original inverter SIDD.
+
+There you can change the password for the SIDD.
+
 --------------------------------------------------------------------------
 Next issue :
 
