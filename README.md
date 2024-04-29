@@ -1,7 +1,44 @@
 # Omniksol-data-extract
-Extract data from access point website of older Omniksol with wifi module
+Extract data from access point website of older Omniksol with wifi module.
 
-Recently I got my hands on an older Omniksol-4k-tl PV inverter with wifi module.
+--------------------------------------------------------------------------
+
+Recently I got my hands on a free Omniksol-4k-tl PV inverter with wifi module which had a defect.
+
+After research it seemed that a common failure is that 1 or more relais will fail.
+
+Mine had one defective relais and had it repaired.
+
+Another issue with the Omniksol is that the solarpanels have to be strong enough.
+
+Earlier connected panels, connecting 6, providing less than 125 Wp per panel made the inverter give an error : Isolation Fail .
+
+Now connecting 6 panels providing 275 Wp per panel make the inverter work as expected.
+
+--------------------------------------------------------------------------
+
+I have a wifi module on board.
+
+If it has it's own SIDD with protected password then you will need to rest the wifi setting if you don't know the password.
+
+In the menu just press until you find the IP adres then hold the button until you see : NO .
+
+Now you can release the button and by pressing shortly you can select : YES .
+
+Holding the button again will save the setting and the wifi settings will be the default without password.
+
+Now you can connect to the inverter with wifi.
+
+Go to your browser and insert 10.10.100.254 as adress.
+
+It will ask you for a username/password.
+
+The default is : admin/admin .
+
+Now you can alter the passwords to your needs.
+
+--------------------------------------------------------------------------
+Next issue :
 
 Turns out the producer of the product no longer exists and the remote servers seem to be down too.
 
