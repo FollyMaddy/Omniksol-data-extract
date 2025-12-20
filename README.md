@@ -19,7 +19,7 @@ Now connecting 6 panels providing 275 Wp per panel make the inverter work as exp
 
 I have a wifi module on board.
 
-If it has it's own SIDD with protected password.
+It has it's own SIDD with protected password.
 
 If you don't know the password then you need to reset the wifi setting.
 
