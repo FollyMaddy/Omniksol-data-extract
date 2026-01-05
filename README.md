@@ -101,7 +101,7 @@ while true;do power=$(curl -s http://10.10.100.254/js/status.js|cut -d '"' -f16|
 
 --------------------------------------------------------------------------
 
-I have added a micropython program for the PICO1W/PICO2W which can do somewhat the same.
+I have added a micropython program for the PICO1W/PICO2W or ESP8266 which can do somewhat the same.
 
 The program might work on other microcontrollers too.
 
@@ -111,7 +111,11 @@ Please search the internet on how to user micropython on your microcontroller an
 
 Remeber, if you want to run the program without Thonny and just on the microcontroller then rename the program as main.py and copy it to your PICO with Thonny.
 
-The program has been added as omniksol.py.
+The program has been added as omniksol-basic.py.
+
+The program omniksol-pico2w.py does switch the led on when the current power is above 500W. 
+
+(this program should work on the pico1w too)
 
 (remember to add your SIDD and PASSWORD in the program)
 
