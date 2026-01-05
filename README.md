@@ -113,6 +113,8 @@ Remeber, if you want to run the program without Thonny and just on the microcont
 
 The program has been added as omniksol.py.
 
+(remember to add your SIDD and PASSWORD in the program)
+
 --------------------------------------------------------------------------
 
 I hope this information it's usefull to someone.
