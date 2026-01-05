@@ -99,6 +99,7 @@ Now that we can extract the data it's also possible to switch a led or a relay w
 while true;do power=$(curl -s http://10.10.100.254/js/status.js|cut -d '"' -f16|cut -d, -f 6);echo $power;if [[ $power -gt 500 ]];then echo on;pinctrl set 2 op pn dl;else echo off;pinctrl set 2 op pn dh;fi;sleep 300;done
 ```
 
+--------------------------------------------------------------------------
 
 I have added a micropython program for the PICO1W/PICO2W which can do somewhat the same.
 
@@ -112,6 +113,7 @@ Remeber, if you want to run the program without Thonny and just on the microcont
 
 The program has been added as omniksol.py.
 
+--------------------------------------------------------------------------
 
 I hope this information it's usefull to someone.
 
