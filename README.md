@@ -109,7 +109,7 @@ Nice thing about these microcontrollers is that they use far less power than RPI
 
 Please search the internet on how to user micropython on your microcontroller and then add the program via Thonny, for example.
 
-Remeber, if you want to run the program without Thonny and just on the microcontroller then rename the program as main.py and copy it to your PICO with Thonny.
+Remember, if you want to run the program without Thonny and just on the microcontroller then rename the program as main.py and copy it to your PICO with Thonny.
 
 The program has been added as omniksol-basic.py.
 
@@ -117,7 +117,7 @@ The program omniksol-pico2w.py does switch the led on when the current power is 
 
 (this program should work on the pico1w too)
 
-(remember to add your SIDD and PASSWORD in the program)
+(remember to add your SIDD and PASSWORD of the WiFi in the program)
 
 --------------------------------------------------------------------------
 
