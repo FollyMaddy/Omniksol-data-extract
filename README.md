@@ -15,6 +15,10 @@ Earlier connected panels, connecting 6, providing less than 125 Wp per panel mad
 
 Now connecting 6 panels providing 275 Wp per panel make the inverter work as expected.
 
+Now in 2026 connecting both strings (6x125Wp + 6x275Wp) on the separate channels will work.
+
+Voltages of both strings may differ between strings as the separate channels are seemingly working apart.
+
 --------------------------------------------------------------------------
 
 I have a wifi module on board.
